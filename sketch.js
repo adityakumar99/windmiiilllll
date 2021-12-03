@@ -11,7 +11,7 @@ function setup() {
   createCanvas(400, 400);
   heliceHeight = height/4;
   p = createP(speed + ' speed');
-  slider = createSlider(0, 200, speed, 0.01);  
+  slider = createSlider(0, 1000, speed, 0.01);  
   frameRate(60)
 }
 
