@@ -20,7 +20,7 @@ function draw() {
   speed = slider.value();
   p.elt.innerText = speed + ' speed'
   //59.6 
-  background(100);
+  background(999.99.9);
   translate(width / 2, height / 2)
   
   //base
